@@ -42,9 +42,9 @@ def is_user_extension_installed():
 
 def is_nautilus_python_installed():
     paths = [
-        "/usr/lib/nautilus/extensions-3.0/libnautilus-python.so",
-        "/usr/lib64/nautilus/extensions-3.0/libnautilus-python.so",
-        "/usr/lib/x86_64-linux-gnu/nautilus/extensions-3.0/libnautilus-python.so",
+        "/usr/lib/nautilus/extensions-4/libnautilus-python.so",
+        "/usr/lib64/nautilus/extensions-4/libnautilus-python.so",
+        "/usr/lib/x86_64-linux-gnu/nautilus/extensions-4/libnautilus-python.so",
     ]
 
     for path in paths:
